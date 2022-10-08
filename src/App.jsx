@@ -33,7 +33,7 @@ export const App = () => {
   }, [data]);
 
   return (
-    <View>
+    <View showLoader ={loading}>
       <CharacterGrid characters={characters} showLoading={loading} />
     </View>
   );
